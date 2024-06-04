@@ -88,7 +88,7 @@ model.compile(
 model.fit(
     train_ds,
     validation_data=val_ds,
-    epochs=20  
+    epochs=10 
 )
 
 # Evaluating the model
